@@ -4,7 +4,7 @@ try:
     from cdecimal import Decimal
 except:
     from decimal import Decimal
-peers = [['106.15.227.37', 7900]],['45.77.111.55', 7900]]
+peers = [['106.15.227.37', 7900],['45.77.111.55', 7900]]
 current_loc=os.path.dirname(os.path.abspath(__file__))
 database_name = os.path.join(current_loc, 'DB')
 log_file=os.path.join(current_loc, 'log')
